@@ -42,7 +42,7 @@ int main(){
     mengine->SetEngine(eengine);
     mengine->AddEventListener(l);
     std::shared_ptr<GateWay> g(new CtpGateway("/home/liulongxiao/bt/config_file/ctpconfig"));
-    mengine->("ctp",g);
+    mengine->AddGateWay("ctp",g);
     mengine->Start();
 
     mengine->SubscribeMarketData("ctp",{"rb1810"});
