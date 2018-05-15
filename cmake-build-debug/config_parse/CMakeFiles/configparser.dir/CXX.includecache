@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liulongxiao/bt/config_parse/ConfigParser.cpp
+fstream
+-
+sstream
+-
+ConfigParser.h
+/home/liulongxiao/bt/config_parse/ConfigParser.h
+exception
+-
+cstring
+-
+
+/home/liulongxiao/bt/config_parse/ConfigParser.h
+string
+-
+unordered_map
+-
+exception
+-
+vector
+-
+

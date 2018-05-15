@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bt.dir/main.cpp.o CMakeFiles/bt.dir/eventApi/EventBus.cpp.o CMakeFiles/bt.dir/csvreader/CSVparser.cpp.o  -o bt -Wl,-rpath,/home/liulongxiao/bt/cmake-build-debug/config_parse -lpthread config_parse/libconfigparser.so 

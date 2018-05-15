@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dataApi\;CMake Files\dataApi\icegen\;CMake Files\config_parse\;CMake Files\gateway\;CMake Files\gateway\ctp\;CMake Files\gateway\ctp\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testmain">
+				<Option output="/home/liulongxiao/bt/cmake-build-debug/testmain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/liulongxiao/bt/gateway/ctp/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 testmain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testmain/fast">
+				<Option output="/home/liulongxiao/bt/cmake-build-debug/testmain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/liulongxiao/bt/gateway/ctp/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 testmain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="configparser">
+				<Option output="/home/liulongxiao/bt/cmake-build-debug/config_parse/libconfigparser.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug/config_parse"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 configparser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="configparser/fast">
+				<Option output="/home/liulongxiao/bt/cmake-build-debug/config_parse/libconfigparser.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug/config_parse"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 configparser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/config_parse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ctpgw">
+				<Option output="/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/libctpgw.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/liulongxiao/bt/gateway/ctp/src/../include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 ctpgw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ctpgw/fast">
+				<Option output="/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/libctpgw.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/liulongxiao/bt/gateway/ctp/src/../include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 ctpgw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liulongxiao/bt/config_parse/ConfigParser.cpp">
+			<Option target="configparser"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/config_parse/ConfigParser.h">
+			<Option target="configparser"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/eventApi/EventBus.cpp">
+			<Option target="testmain"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/eventApi/EventBus.h">
+			<Option target="testmain"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/error_handle.cpp">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/error_handle.h">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/md_spi.cpp">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/md_spi.h">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/struct_build.cpp">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/struct_build.h">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/trader_spi.cpp">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/trader_spi.h">
+			<Option target="ctpgw"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/testmain.cpp">
+			<Option target="testmain"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/dataApi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataApi\"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/dataApi/icegen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataApi\icegen\"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/config_parse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\config_parse\"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gateway\ctp\"/>
+		</Unit>
+		<Unit filename="/home/liulongxiao/bt/gateway/ctp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gateway\ctp\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

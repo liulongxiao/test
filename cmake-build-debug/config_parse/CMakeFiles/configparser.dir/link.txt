@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libconfigparser.so -o libconfigparser.so CMakeFiles/configparser.dir/ConfigParser.cpp.o 

@@ -1,0 +1,15 @@
+/home/liulongxiao/bt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/CMakeFiles/testmain.dir
+/home/liulongxiao/bt/cmake-build-debug/dataApi/CMakeFiles/rebuild_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/dataApi/CMakeFiles/edit_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/dataApi/icegen/CMakeFiles/rebuild_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/dataApi/icegen/CMakeFiles/edit_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/config_parse/CMakeFiles/rebuild_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/config_parse/CMakeFiles/edit_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/config_parse/CMakeFiles/configparser.dir
+/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/CMakeFiles/rebuild_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/CMakeFiles/edit_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/CMakeFiles/rebuild_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/CMakeFiles/edit_cache.dir
+/home/liulongxiao/bt/cmake-build-debug/gateway/ctp/src/CMakeFiles/ctpgw.dir
